@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    background-color: #121212; 
+    color: #e0e0e0; /* Цвет текста 
+}
+
+header {
+    background-color: #1e1e1e; 
+}
+
+a {
+    color: #bb86fc; 
+}
+
+a:hover {
+    color: #3700b3; 
+}
+
+.wrap {
+    background-color: #1e1e1e;
+}
+
+button {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+}
+
+button:hover {
+    background-color: #3e3e3e;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    background-color: #1e1e1e;
+    color: #e0e0e0; 
+    border: 1px solid #333; 
+    border-radius: 4px; 
+    padding: 8px; 
+    margin: 4px 0; 
+    width: 100%; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #bb86fc; 
+    outline: none; 
+    background-color: #2e2e2e;
+}

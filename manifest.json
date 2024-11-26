@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "GitVerse Dark Theme",
+  "version": "1.0",
+  "description": "Темная тема для сайта GitVerse.   GitHub > https://github.com/ErkinKraft",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://gitverse.ru/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
